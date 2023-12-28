@@ -1,5 +1,5 @@
 - name: ping the node
-  hosts: 172.31.17.89
+  hosts: mongodb
   tasks:
    - name: pinging the server
      ansible.builtin.ping: 
