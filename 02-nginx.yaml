@@ -4,7 +4,7 @@
      - name: nginx insatlled
        ansible.builtin.yum:
         - name: nginx
-          state: insatlled
+          state: insatlled 
      - name: nginx run
        ansible.builtin.service:
         - name: nginx
