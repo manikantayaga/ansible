@@ -1,12 +1,12 @@
 -  name: install and run nginx
    hosts: mongodb
    tasks:
-    - name: install nginx
-      ansbile.builtin.yum:
+   - name: install nginx
+     ansbile.builtin.yum:
        name: nginx
        state: installed
     - name: start nginx
-     ansbile.builtin.service:
+      ansbile.builtin.service:
        name : nginx
        state : started
   
